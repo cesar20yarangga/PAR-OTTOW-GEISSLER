@@ -1,0 +1,160 @@
+/* Gaya CSS untuk konten utama */
+.content {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #615f5f; /* Warna latar belakang header (hitam) */
+    color: #f9f2f2; /* Warna teks header (putih) */
+    padding: 20px; /* Padding untuk header */
+    text-align: center; /* Pusatkan teks header */
+   
+}
+
+/* Gaya CSS untuk gambar */
+.animated-image {
+    width: 100%; /* Lebar gambar 100% dari parent */
+    max-width: 200px; /* Batasi lebar gambar untuk menjaga proporsi */
+    height: auto; /* Atur tinggi gambar secara otomatis */
+    border-radius: 10px; /* Tambahkan sudut bulat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+/* Gaya CSS untuk container kutipan */
+.verse-container {
+    margin-top: 16px;
+}
+
+/* Gaya CSS untuk ikon */
+.icon-container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+/* Gaya CSS untuk teks */
+span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Gaya CSS untuk teks kutipan */
+.verse {
+    font-style: italic;
+    font-size: 25px;
+}
+
+/* Gaya CSS untuk header */
+h1 {
+    font-size: 36px;
+    color: #050505;
+    text-shadow: 5px 5px 7px rgb(233, 225, 225); /* Tambahkan bayangan teks */
+    margin-bottom: 20px;
+}
+/* Gaya CSS untuk tombol dengan ikon */
+.icon-button {
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-button img {
+    width: 70px; /* Atur ukuran ikon sesuai kebutuhan */
+    height: 70px;
+}
+/* Animasi saat tombol disentuh */
+.icon-button:hover {
+    transform: scale(1.1); /* Perbesar ikon saat disentuh */
+}
+/* Gaya CSS untuk latar belakang dan font */
+body {
+    background-color: #FFFFFF; /* Latar belakang putih */
+    color: #1a1919; /* Warna teks judul */
+    font-family: Arial, sans-serif; /* Pilihan font */
+}
+
+/* Gaya CSS untuk judul */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Gaya CSS untuk teks alamat */
+h4 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Gaya CSS untuk tombol dengan ikon */
+.icon-button {
+    background-color: #4A90E2; /* Warna tombol biru langit tua */
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Transisi untuk animasi */
+    display: block;
+    margin: 20px auto; /* Pusatkan tombol */
+    border-radius: 50px; /* Sudut bulat */
+    padding: 10px 20px; /* Padding tombol */
+}
+
+.icon-button img {
+    width: 50px; /* Atur ukuran ikon sesuai kebutuhan */
+    height: 50px;
+    display: block;
+    margin: 0 auto; /* Pusatkan ikon */
+}
+
+/* Animasi saat tombol ditekan */
+.icon-button:active {
+    transform: scale(0.9); /* Perkecil ikon saat ditekan */
+}
+
+/* Gaya CSS untuk teks di bawah tombol */
+.center {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Gaya CSS untuk tautan */
+a {
+    color: #4A90E2; /* Warna tautan sama dengan warna tombol */
+    text-decoration: none; /* Hapus garis bawah tautan */
+}
+
+a:hover {
+    text-decoration: underline; /* Tambahkan garis bawah saat tautan disorot */
+}
+/* Gaya CSS untuk header */
+    /* Gaya CSS untuk latar belakang web */
+body {
+    background-color: #f4eeee; /* Warna latar belakang web (abu-abu muda) */
+    margin: 0; /* Hilangkan margin bawaan */
+    padding: 0; /* Hilangkan padding bawaan */
+}
+
+/* Efek saat tombol dihover */
+.button {
+    background-color: #4CAF50; /* Warna dasar tombol */
+    border: none;
+    color: rgb(10, 9, 9);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #097aeb; /* Warna tombol saat dihover */
+  }
+  
+  /* Efek saat tombol diklik */
+  .button:active {
+    position: relative;
+    top: 2px; /* Geser tombol ke bawah saat diklik */
+  }
+  
